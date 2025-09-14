@@ -19,3 +19,14 @@ Check if the server is running successfully:
 
 **Example Request:**
 `http://localhost:3000/api/process-image?filename=santamonica&width=150&height=150`
+
+## Scripts
+
+- `npm start` — Launch the compiled server
+- `npm run dev` — Run TypeScript in watch mode for development
+- `npm run build` — Compile TypeScript files into JavaScript
+- `npm test` — Execute Jasmine test suite 
+- `npm run lint` — Check code quality with ESLint
+- `npm run format` — Format code with Prettier
+
+### Implemented by: Ala' Abu-shomer❤️
