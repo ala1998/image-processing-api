@@ -7,7 +7,9 @@ Check if the server is running successfully:
 ## Endpoints
 
 ### 1. Process & Resize Image
+
 `GET /api/process-image?filename=<name>&width=<width>&height=<height>`
+
 **Method:** GET  
 **Path:** `/api/process-image`  
 **Query Parameters:**  
