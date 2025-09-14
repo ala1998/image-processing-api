@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node build/index.js",
+    "start": "node dist/index.js",
     "dev": "tsc --watch",
     "build": "tsc",
-    "test": "jasmine",
-    "lint": "eslint . --ext .ts",
+    "test": "ts-node node_modules/jasmine/bin/jasmine.js",
+    "lint": "eslint",
     "format": "prettier --write ."
   },
   "keywords": [],
@@ -23,9 +23,13 @@
     "@types/express": "^5.0.3",
     "@types/jasmine": "^5.1.9",
     "@types/node": "^24.3.3",
+    "@types/supertest": "^6.0.3",
+    "@typescript-eslint/eslint-plugin": "^8.43.0",
+    "@typescript-eslint/parser": "^8.43.0",
     "eslint": "^9.35.0",
     "jasmine": "^5.10.0",
     "prettier": "^3.6.2",
+    "supertest": "^7.1.4",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.2"
   }
